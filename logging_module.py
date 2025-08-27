@@ -1,0 +1,16 @@
+import time
+import logging
+# logging.basicConfig(filename="obj1.txt",level=logging.INFO,filemode="w")
+# logging.basicConfig(format="%(levelname)s",level=logging.DEBUG)
+# logging.basicConfig(format="%(message)s",level=logging.DEBUG)
+# logging.basicConfig(format="%(asctime)s:%(levelname)s:%(message)s",level=logging.DEBUG)
+logging.basicConfig(format="%(asctime)s:%(levelname)s:%(message)s",level=logging.DEBUG,datefmt="%d/%m/%Y %I:%M:%S %p")
+print("===Welcome to Logging_Module===")
+logging.debug("Debug_Information===")
+logging.info("Info_Information===")
+logging.warning("Warning_Information")
+logging.error("Error_Information")
+logging.critical("Critical_Information")
+print()
+time.sleep(2)
+print("End of an application")   
