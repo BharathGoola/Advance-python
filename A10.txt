@@ -1,0 +1,16 @@
+1001
+Mobile_1
+23000
+Samsung
+1002
+Mobile_2
+24000
+Samsung
+1003
+Mobile_3
+25000
+Samsung
+1004
+Mobile_4
+26000
+Samsung
